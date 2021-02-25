@@ -1,0 +1,13 @@
+[flake8]
+# General
+max-line-length = 120
+exclude = venv, .venv
+
+# Quotes
+inline-quotes = single
+multiline-quotes = single
+docstring-quotes = single
+
+# Imports
+import-order-style = google
+application-import-names = cwa, tests
